@@ -1,0 +1,52 @@
+{
+  "trace_id": "nearfield_contact_stability_2026-06-05",
+  "scenario": "contact_stability",
+  "source_repo": "drake",
+  "domain": "dynamics_and_contact",
+  "samples": [
+    {
+      "timestamp_s": 0,
+      "success": true,
+      "latency_ms": 6.6000000000000005,
+      "clearance_m": 0.4725,
+      "jerk": 1.4400000000000002,
+      "saturation_ratio": 0.036000000000000004,
+      "stability_margin": 0.319,
+      "calibration_rmse_px": 0.675,
+      "contact_event": false
+    },
+    {
+      "timestamp_s": 1.2,
+      "success": true,
+      "latency_ms": 8.399999999999999,
+      "clearance_m": 0.40249999999999997,
+      "jerk": 1.984,
+      "saturation_ratio": 0.044000000000000004,
+      "stability_margin": 0.264,
+      "calibration_rmse_px": 0.75,
+      "contact_event": false
+    },
+    {
+      "timestamp_s": 2.6,
+      "success": true,
+      "latency_ms": 10.8,
+      "clearance_m": 0.3675,
+      "jerk": 2.2399999999999998,
+      "saturation_ratio": 0.055999999999999994,
+      "stability_margin": 0.231,
+      "calibration_rmse_px": 0.8699999999999999,
+      "contact_event": false
+    },
+    {
+      "timestamp_s": 4.1,
+      "success": true,
+      "latency_ms": 9,
+      "clearance_m": 0.42,
+      "jerk": 1.8559999999999999,
+      "saturation_ratio": 0.048,
+      "stability_margin": 0.275,
+      "calibration_rmse_px": 0.78,
+      "contact_event": false
+    }
+  ]
+}
